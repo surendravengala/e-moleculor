@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moleculor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="slider-container">
+            <div class="slider-text">Welcome to Moleculor</div>
+            <div class="slider-text">Get up to 50% off on premium products</div>
+            <div class="slider-text">Get free delivery on first 3 orders</div>
+        </div>
+    </div>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-left">
+            <div class="menu-icon">
+                <i class="fas fa-bars"></i>
+                <div class="dropdown-menu">
+                    <div class="menu-header">
+                        <i class="fas fa-times close-menu"></i>
+                    </div>
+                    <ul class="menu-list">
+                        <li><a href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">Orders</a></li>
+                        <li><a href="#">Find a Store</a></li>
+                        <li class="shop-dropdown">
+                            <a href="#">Shop <i class="fas fa-chevron-down"></i></a>
+                            <ul class="submenu">
+                                <li><a href="#">Hoodies</a></li>
+                                <li><a href="#">T-Shirts</a></li>
+                                <li><a href="#">Sweat T-Shirts</a></li>
+                                <li><a href="#">Trouser</a></li>
+                                <li><a href="#">Jeans</a></li>
+                                <li><a href="#">Shorts</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="images/mol_logo.jpeg" alt="Moleculor Collections">
+            </div>
+        </div>
+        
+        <div class="header-right">
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="header-icons">
+                <div class="icon profile">
+                    <i class="fas fa-user"></i>
+                    <!-- <div class="profile-card">
+                        <div class="profile-image">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="profile-info">
+                            <h3 class="profile-name">John Doe</h3>
+                            <div class="profile-email">
+                                <i class="fas fa-envelope"></i>
+                                <span>johndoe@example.com</span>
+                            </div>
+                            <div class="profile-contact">
+                                <i class="fas fa-phone"></i>
+                                <span>+1 234 567 890</span>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="icon wishlist">
+                    <i class="fas fa-heart"></i>
+                    <span class="notification">0</span>
+                </div>
+                <div class="icon cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="notification">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Banner Section -->
+        <section class="banner">
+            <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=1600&h=900" alt="Fashion Banner">
+            <div class="banner-content">
+                <h1>MOLECULOR</h1>
+                <p>Explore our latest collection.</p>
+                <button class="shop-now">Shop Now</button>
+            </div>
+        </section>
+
+        <!-- New Drops Section -->
+        <section class="product-section">
+            <h2>New Drops</h2>
+            <div class="product-grid">
+                <!-- Item 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27" alt="Stylish T-Shirt">
+                        <button class="wishlist-icon"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <h3>Premium Cotton T-Shirt</h3>
+                    <p class="price">$49.99</p>
+                    <div class="sizes">
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1604695573706-53170668f6a6" alt="Casual Shirt">
+                        <button class="wishlist-icon"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <h3>Modern Casual Shirt</h3>
+                    <p class="price">$59.99</p>
+                    <div class="sizes">
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://img.freepik.com/premium-photo/hip-hop-style-young-adult-studio-photo-with-green-background-ideal-cropping_496782-2381.jpg?ga=GA1.1.1862102380.1729219632&semt=ais_hybrid" alt="Designer Hoodie">
+                        <button class="wishlist-icon"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <h3>Urban Hoodie</h3>
+                    <p class="price">$79.99</p>
+                    <div class="sizes">
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://img.freepik.com/premium-photo/portrait-young-stylish-man-yellow-leather-jacket-black-jeans-with-white-background_953460-254.jpg?ga=GA1.1.1862102380.1729219632&semt=ais_hybrid" alt="Premium Jacket">
+                        <button class="wishlist-icon"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <h3>Designer Jacket</h3>
+                    <p class="price">$129.99</p>
+                    <div class="sizes">
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <button class="view-more" onclick="window.location.href='new-drops.html'">View More</button>
+        </section>
+
+        <!-- Deals of the Day Section -->
+        <section class="product-section">
+            <h2>DEALS OF THE DAY</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5" alt="Premium Jacket">
+                        <span class="sale-badge">SALE</span>
+                    </div>
+                    <h3>Premium Brand</h3>
+                    <p>
+                        <span class="original-price">$129.99</span>
+                        <span class="price">$79.99</span>
+                    </p>
+                    <div class="sizes">
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&h=500" alt="Luxury Collection">
+                        <span class="sale-badge">SALE</span>
+                    </div>
+                    <h3>Luxury Collection</h3>
+                    <p>
+                        <span class="original-price">$149.99</span>
+                        <span class="price">$89.99</span>
+                    </p>
+                    <div class="sizes">
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=400&h=500" alt="Urban Style">
+                        <span class="sale-badge">SALE</span>
+                    </div>
+                    <h3>Urban Style</h3>
+                    <p>
+                        <span class="original-price">$119.99</span>
+                        <span class="price">$69.99</span>
+                    </p>
+                    <div class="sizes">
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://plus.unsplash.com/premium_photo-1675186049409-f9f8f60ebb5e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNsb3RoaW5nfGVufDB8fDB8fHww" alt="Elite Fashion">
+                        <span class="sale-badge">SALE</span>
+                    </div>
+                    <h3>Elite Fashion</h3>
+                    <p>
+                        <span class="original-price">$169.99</span>
+                        <span class="price">$99.99</span>
+                    </p>
+                    <div class="sizes">
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                    </div>
+                </div>
+            </div>
+            <button class="view-more" onclick="window.location.href='deals-of-the-day.html'">View More</button>
+        </section>
+
+        <!-- Topwear Collections -->
+        <section class="category-section">
+            <h2>TOPWEAR COLLECTIONS</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="https://img.freepik.com/free-photo/attractive-young-caucasian-male-student-gray-hoodie-jeans-puffing-out-his-cheeks-like-he-is-tired-running-as-he-is-late-classes_176420-13437.jpg?t=st=1735927605~exp=1735931205~hmac=bcf1b1f5096bd5e11705e2c525f83b94bcc3d624c862c5cc5963cd7f9f8995db&w=900" alt="Basic Hoodie">
+                    <h3>Hoodies</h3>
+                    <a href="hoodies.html" class="category-link"></a>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=400&h=500" alt="Casual Shirts">
+                    <h3>Casual Shirts</h3>
+                    <a href="casual-shirts.html" class="category-link"></a>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&h=500" alt="T-Shirts">
+                    <h3>T-Shirts</h3>
+                    <a href="tshirts.html" class="category-link"></a>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&h=500" alt="Jackets">
+                    <h3>Jackets</h3>
+                    <a href="jackets.html" class="category-link"></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bottomwear Collections -->
+        <section class="category-section">
+            <h2>BOTTOM WEARS COLLECTION</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=400&h=500" alt="Trousers">
+                    <h3>Trousers</h3>
+                    <a href="trousers.html" class="category-link"></a>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=500" alt="Jeans">
+                    <h3>Jeans</h3>
+                    <a href="jeans.html" class="category-link"></a>
+                </div>
+                <div class="category-card">
+                    <img src="https://img.freepik.com/premium-photo/hallo-this-look-model-you-photo-asset_891936-1789.jpg?ga=GA1.1.1862102380.1729219632&semt=ais_hybrid" alt="Cargo Shorts">
+                    <h3>Shorts</h3>
+                    <a href="shorts.html" class="category-link"></a>
+                </div>
+                <div class="category-card">
+                    <img src="https://img.freepik.com/premium-photo/portrait-young-guy_93995-4492.jpg?ga=GA1.1.1862102380.1729219632&semt=ais_hybrid" alt="Classic Track Pants">
+                    <h3>Track Pants</h3>
+                    <a href="track-pants.html" class="category-link"></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Add this section after the Bottomwear Collections section and before the footer -->
+        <section class="category-section">
+            <h2>PREMIUM COLLECTIONS</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?w=400&h=500" alt="Designer Suits">
+                    <h3>Designer Suits</h3>
+                    <a href="designer-suits.html" class="category-link"></a>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=400&h=500" alt="Premium Blazers">
+                    <h3>Premium Blazers</h3>
+                    <a href="premium-blazers.html" class="category-link"></a>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1603252109303-2751441dd157?w=400&h=500" alt="Luxury Shirts">
+                    <h3>Luxury Shirts</h3>
+                    <a href="luxury-shirts.html" class="category-link"></a>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?w=400&h=500" alt="Signature Collection">
+                    <h3>Signature Collection</h3>
+                    <a href="signature-collection.html" class="category-link"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h3>About Moleculor</h3>
+            <ul>
+              <li><a href="#">Who We Are</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Help</h3>
+            <ul>
+              <li><a href="#">Track Your Order</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Shipping Info</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Shop By</h3>
+            <ul>
+              <li><a href="#">Hoodies</a></li>
+              <li><a href="#">Shirts</a></li>
+              <li><a href="#">T-Shirts</a></li>
+              <li><a href="#">Jeans</a></li>
+              <li><a href="#">Trousers</a></li>
+              <li><a href="#">Shorts</a></li>
+            </ul>
+          </div>
+          <div class="footer-column social-links">
+            <h3>Follow Us</h3>
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </div>
+          
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Moleculor. All rights reserved.</p>
+        </div>
+      </footer>
+      
+
+    <script src="script.js"></script>
+</body>
+</html>
